@@ -8,7 +8,7 @@ angular.module('botaniser.services', [])
     };
 })
 
-.factory('SpeciesList', ['Api', function(Api) {
+.factory('SpeciesList', function() {
     // Might use a resource here that returns a JSON array
 
     // Some fake testing data
@@ -17,131 +17,13 @@ angular.module('botaniser.services', [])
     return {
         all: function() {
             return speciesList;
-//            if (pos.coords) {
-//                Api.fetch({
-//                    params: {
-//                        'fq': 'kingdom:Plantae',
-//                        'pageSize': 0,
-//                        'flimit'  : 2000,
-//                        //'sort'  : 'count',
-//                        'radius': 10,
-//                        'lat'   : pos.coords.latitude,
-//                        'lon'   : pos.coords.longitude,
-//                        'facets': 'taxon_name'
-//                    }
-//                }).success(function(data, status, headers, config) {
-//                    var results = data.facetResults[0].fieldResult;
-//                    var speciesListFull = results.reduce(function (res, item){
-//                        if (item.count < 100 && speciesMap[item.label] && speciesMap[item.label].occurrenceCount < 100) {
-//                            item.totalCount = speciesMap[item.label].occurrenceCount;
-//                            res.push(item);
-//                        }
-//                        return res;
-//                    }, []);
-//                    speciesListFull = speciesListFull.sort(function (a, b) {
-//                        if (a.totalCount < b.totalCount) {
-//                            return -1;
-//                        } else if (a.totalCount > b.totalCount) {
-//                            return 1;
-//                        }
-//                        return 0;
-//                    });
-//
-//                    return speciesListFull.splice(0, 20);
-//                }).error(function(data, status, headers, config) {
-//                    console.log('Error', arguments);
-//                });
-//            } else {
-//                //not ready todo retry
-//            }
         },
-        get: function(speciesId, pos) {
-            if (pos.coords) {
-                Api.fetch({
-                    params: {
-                        'fq': 'kingdom:Plantae',
-                        'pageSize': 0,
-                        'flimit'  : 2000,
-                        //'sort'  : 'count',
-                        'radius': $scope.radius,
-                        'lat'   : $scope.pos.coords.latitude,
-                        'lon'   : $scope.pos.coords.longitude,
-                        'facets': 'taxon_name'
-                    }
-                }).success(function(data, status, headers, config) {
-                    var results = data.facetResults[0].fieldResult;
-                    var speciesListFull = results.reduce(function (res, item){
-                        if (speciesMap[item.pk] == speciesId) {
-                            res.push(item);
-                        }
-                        return res;
-                    }, []);
-//                    speciesListFull = speciesListFull.sort(function (a, b) {
-//                        if (a.totalCount < b.totalCount) {
-//                            return -1;
-//                        } else if (a.totalCount > b.totalCount) {
-//                            return 1;
-//                        }
-//                        return 0;
-//                    });
-//
-                    $scope.speciesList = speciesListFull.splice(0, 20);
-
-                    return speciesListFull[0];
-                }).error(function(data, status, headers, config) {
-                    console.log('Error', arguments);
-                });
-            } else {
-                //not ready todo retry
-            }
-
-            //return speciesListFull[0];
+        get: function(speciesId) {
             // Simple index lookup
-            //return speciesList[speciesId];
-        },
-        load: function (pos, radius) {
-            if (pos.coords) {
-                Api.fetch({
-                    params: {
-                        'fq': 'kingdom:Plantae',
-                        'pageSize': 0,
-                        'flimit'  : 2000,
-                        //'sort'  : 'count',
-                        'radius': radius,
-                        'lat'   : pos.coords.latitude,
-                        'lon'   : pos.coords.longitude,
-                        'facets': 'taxon_name'
-                    }
-                }).success(function(data, status, headers, config) {
-                    var results = data.facetResults[0].fieldResult;
-                    var speciesListFull = results.reduce(function (res, item){
-                        if (item.count < 100 && speciesMap[item.label] && speciesMap[item.label].occurrenceCount < 100) {
-                            item.totalCount = speciesMap[item.label].occurrenceCount;
-                            res.push(item);
-                        }
-                        return res;
-                    }, []);
-                    speciesListFull = speciesListFull.sort(function (a, b) {
-                        if (a.totalCount < b.totalCount) {
-                            return -1;
-                        } else if (a.totalCount > b.totalCount) {
-                            return 1;
-                        }
-                        return 0;
-                    });
-
-                    //speciesList = speciesListFull.splice(0, 20);
-
-                    return speciesListFull.splice(0, 20);
-                }).error(function(data, status, headers, config) {
-                    console.log('Error', arguments);
-                });
-            } else {
-                //not ready todo retry
-            }
+            return speciesList[speciesId];
         }
     }
-}])
+})
 
 .factory('Camera', ['$q', function($q) {
     return {

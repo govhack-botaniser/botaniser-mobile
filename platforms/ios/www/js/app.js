@@ -40,6 +40,17 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
         }
     })
 
+    // Each tab has its own nav history stack:
+    .state('app.entry', {
+        url: '/entry',
+        views: {
+            'menu-content': {
+                templateUrl: 'templates/entry.html',
+                controller: 'EntryCtrl'
+            }
+        }
+    })
+
     // Species near me and details page
     .state('app.species', {
         url: '/speciesList',

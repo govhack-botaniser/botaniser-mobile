@@ -8,20 +8,65 @@ angular.module('botaniser.controllers', [])
     });
 
     // Initialise camera functions
+//    $scope.getPhoto = function() {
+//        console.log('Getting camera...');
+//        Camera.getPicture().then(function(imageURI) {
+//            console.log(imageURI);
+//            //$scope.lastPhoto = imageURI;
+//        }, function(err) {
+//            console.err(err);
+//        }, {
+//            quality: 75,
+//            targetWidth: 320,
+//            targetHeight: 320,
+//            saveToPhotoAlbum: false
+//        });
+//    };
     $scope.getPhoto = function() {
-        console.log('Getting camera...');
-        Camera.getPicture().then(function(imageURI) {
-            console.log(imageURI);
-            //$scope.lastPhoto = imageURI;
-        }, function(err) {
-            console.err(err);
-        }, {
-            quality: 75,
-            targetWidth: 320,
-            targetHeight: 320,
-            saveToPhotoAlbum: false
-        });
+        var options = {
+            quality: 50,
+            destinationType: Camera.DestinationType.FILE_URI,
+            sourceType: 1,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
+            encodingType: 0     // 0=JPG 1=PNG
+        }
+        navigator.camera.getPicture(onSuccess, onFail, options);
+    }
+
+    $scope.uploadPhoto = function() {
+        var options = {
+            quality: 50,
+            destinationType: Camera.DestinationType.FILE_URI,
+            sourceType: 2,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
+            encodingType: 0     // 0=JPG 1=PNG
+        }
+        navigator.camera.getPicture(onSuccess, onFail, options);
+    }
+
+    $scope.sendPhoto = function() {
+        var myImg = $scope.picData;
+        var options = new FileUploadOptions();
+        options.fileKey="post";
+        options.chunkedMode = false;
+        var params = {};
+        params.user_token = localStorage.getItem('auth_token');
+        params.user_email = localStorage.getItem('email');
+        options.params = params;
+        var ft = new FileTransfer();
+        ft.upload(myImg, encodeURI("https://example.com/posts/"), onUploadSuccess, onUploadFail, options);
+    }
+
+    var onSuccess = function(FILE_URI) {
+        console.log(FILE_URI);
+        $scope.picData = FILE_URI;
+        $scope.$apply();
     };
+
+    var onFail = function(e) {
+        console.log("On fail " + e);
+    }
+})
+
+.controller('EntryCtrl', function($scope) {
 })
 
 .controller('SpeciesCtrl', function($scope, Api, GeoLocation, SpeciesList) {
