@@ -23,54 +23,54 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     $stateProvider
 
     // setup an abstract state for the tabs directive
-    .state('tab', {
-        url: "/tab",
+    .state('app', {
+        url: "/app",
         abstract: true,
-        templateUrl: "templates/tabs.html"
+        templateUrl: "templates/menu.html"
     })
 
     // Each tab has its own nav history stack:
-    .state('tab.dash', {
-        url: '/dash',
+    .state('app.home', {
+        url: '/home',
         views: {
-            'tab-dash': {
-                templateUrl: 'templates/tab-dash.html',
+            'menu-content': {
+                templateUrl: 'templates/home.html',
                 controller: 'DashCtrl'
             }
         }
     })
 
     // Species near me and details page
-    .state('tab.species', {
+    .state('app.species', {
         url: '/speciesList',
         views: {
-            'tab-species': {
-                templateUrl: 'templates/tab-species.html',
+            'menu-content': {
+                templateUrl: 'templates/species.html',
                 controller: 'SpeciesCtrl'
             }
         }
     })
-    .state('tab.species-detail', {
+    .state('app.species-detail', {
         url: '/species/:speciesId',
         views: {
-            'tab-species': {
+            'menu-content': {
                 templateUrl: 'templates/species-detail.html',
                 controller: 'SpeciesDetailCtrl'
             }
         }
     })
 
-    .state('tab.account', {
+    .state('app.account', {
         url: '/account',
         views: {
-            'tab-account': {
-                templateUrl: 'templates/tab-account.html',
+            'menu-content': {
+                templateUrl: 'templates/account.html',
                 controller: 'AccountCtrl'
             }
         }
     })
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/tab/dash');
+    $urlRouterProvider.otherwise('/app/home');
 });
 

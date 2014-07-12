@@ -1,6 +1,10 @@
 angular.module('botaniser.controllers', [])
 
-.controller('DashCtrl', function($scope) {
+.controller('DashCtrl', function($scope, GeoLocation) {
+    $scope.pos = {};
+    GeoLocation.getCurrentPosition(function(pos) {
+        $scope.pos = pos;
+    })
 })
 
 .controller('SpeciesCtrl', function($scope, SpeciesList) {

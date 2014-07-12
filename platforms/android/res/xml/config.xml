@@ -14,7 +14,7 @@
     </feature>
     <name>Botaniser</name>
     <description>Botaniser</description>
-    <author email="hi@ionicframework" href="http://botaniser.com/">Botaniser GovHack 2014 Team</author>
+    <author email="hi@botaniser.com" href="http://botaniser.com/">Botaniser GovHack 2014 Team</author>
     <content src="index.html" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
