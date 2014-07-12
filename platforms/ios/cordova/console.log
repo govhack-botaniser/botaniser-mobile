@@ -1,0 +1,11 @@
+2014-07-12 10:22:38.250 Botaniser[7505:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 10:22:38.274 Botaniser[7505:70b] Unlimited access to network resources
+2014-07-12 10:22:38.277 Botaniser[7505:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-12 10:22:38.594 Botaniser[7505:70b] Resetting plugins due to page load.
+2014-07-12 10:22:38.714 Botaniser[7505:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/F65846A3-F275-40CE-A924-F8D9480EB840/Botaniser.app/www/index.html
