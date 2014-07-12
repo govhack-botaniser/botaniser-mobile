@@ -662,3 +662,261 @@ Terminating in response to SpringBoard's termination.
 2014-07-12 20:15:20.688 Botaniser[42558:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
 2014-07-12 20:15:21.933 Botaniser[42558:70b] Getting camera...
 2014-07-12 20:15:21.934 Botaniser[42558:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 20:29:31.101 Botaniser[44230:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:29:31.112 Botaniser[44230:70b] Unlimited access to network resources
+2014-07-12 20:29:31.137 Botaniser[44230:70b] [CDVTimer][keyboard] 0.111043ms
+2014-07-12 20:29:31.137 Botaniser[44230:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:29:31.138 Botaniser[44230:70b] [CDVTimer][statusbar] 0.534952ms
+2014-07-12 20:29:31.138 Botaniser[44230:70b] [CDVTimer][TotalPluginStartup] 1.793027ms
+2014-07-12 20:29:31.259 Botaniser[44230:70b] Resetting plugins due to page load.
+2014-07-12 20:29:31.444 Botaniser[44230:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:30:00.850 Botaniser[44230:70b] Getting camera...
+2014-07-12 20:30:00.852 Botaniser[44230:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 20:35:16.273 Botaniser[44472:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:35:16.283 Botaniser[44472:70b] Unlimited access to network resources
+2014-07-12 20:35:16.303 Botaniser[44472:70b] [CDVTimer][keyboard] 0.086010ms
+2014-07-12 20:35:16.304 Botaniser[44472:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:35:16.304 Botaniser[44472:70b] [CDVTimer][statusbar] 0.614047ms
+2014-07-12 20:35:16.305 Botaniser[44472:70b] [CDVTimer][TotalPluginStartup] 1.960993ms
+2014-07-12 20:35:16.434 Botaniser[44472:70b] Resetting plugins due to page load.
+2014-07-12 20:35:16.633 Botaniser[44472:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:45:14.864 Botaniser[44729:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:45:14.874 Botaniser[44729:70b] Unlimited access to network resources
+2014-07-12 20:45:14.899 Botaniser[44729:70b] [CDVTimer][keyboard] 0.108004ms
+2014-07-12 20:45:14.900 Botaniser[44729:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:45:14.900 Botaniser[44729:70b] [CDVTimer][statusbar] 0.482023ms
+2014-07-12 20:45:14.901 Botaniser[44729:70b] [CDVTimer][TotalPluginStartup] 1.814961ms
+2014-07-12 20:45:15.036 Botaniser[44729:70b] Resetting plugins due to page load.
+2014-07-12 20:45:15.490 Botaniser[44729:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:47:09.400 Botaniser[44729:70b] CDVWebViewDelegate: Navigation started when state=1
+2014-07-12 20:47:09.400 Botaniser[44729:70b] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-07-12 20:47:26.592 Botaniser[44960:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:47:26.603 Botaniser[44960:70b] Unlimited access to network resources
+2014-07-12 20:47:26.626 Botaniser[44960:70b] [CDVTimer][keyboard] 0.073016ms
+2014-07-12 20:47:26.627 Botaniser[44960:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:47:26.627 Botaniser[44960:70b] [CDVTimer][statusbar] 0.539005ms
+2014-07-12 20:47:26.628 Botaniser[44960:70b] [CDVTimer][TotalPluginStartup] 1.801014ms
+2014-07-12 20:47:26.745 Botaniser[44960:70b] Resetting plugins due to page load.
+2014-07-12 20:47:27.158 Botaniser[44960:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:50:14.314 Botaniser[45192:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:50:14.325 Botaniser[45192:70b] Unlimited access to network resources
+2014-07-12 20:50:14.359 Botaniser[45192:70b] [CDVTimer][keyboard] 0.113010ms
+2014-07-12 20:50:14.360 Botaniser[45192:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:50:14.360 Botaniser[45192:70b] [CDVTimer][statusbar] 0.492990ms
+2014-07-12 20:50:14.361 Botaniser[45192:70b] [CDVTimer][TotalPluginStartup] 1.837015ms
+2014-07-12 20:50:14.496 Botaniser[45192:70b] Resetting plugins due to page load.
+2014-07-12 20:50:14.953 Botaniser[45192:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:53:50.941 Botaniser[45423:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:53:50.951 Botaniser[45423:70b] Unlimited access to network resources
+2014-07-12 20:53:50.974 Botaniser[45423:70b] [CDVTimer][keyboard] 0.074983ms
+2014-07-12 20:53:50.975 Botaniser[45423:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:53:50.975 Botaniser[45423:70b] [CDVTimer][statusbar] 0.423968ms
+2014-07-12 20:53:50.976 Botaniser[45423:70b] [CDVTimer][TotalPluginStartup] 1.508951ms
+2014-07-12 20:53:51.149 Botaniser[45423:70b] Resetting plugins due to page load.
+2014-07-12 20:53:51.573 Botaniser[45423:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:54:44.014 Botaniser[45646:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:54:44.025 Botaniser[45646:70b] Unlimited access to network resources
+2014-07-12 20:54:44.059 Botaniser[45646:70b] [CDVTimer][keyboard] 0.100017ms
+2014-07-12 20:54:44.060 Botaniser[45646:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:54:44.061 Botaniser[45646:70b] [CDVTimer][statusbar] 0.542998ms
+2014-07-12 20:54:44.061 Botaniser[45646:70b] [CDVTimer][TotalPluginStartup] 1.914978ms
+2014-07-12 20:54:44.230 Botaniser[45646:70b] Resetting plugins due to page load.
+2014-07-12 20:54:44.681 Botaniser[45646:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:56:29.759 Botaniser[45881:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:56:29.767 Botaniser[45881:70b] Unlimited access to network resources
+2014-07-12 20:56:29.784 Botaniser[45881:70b] [CDVTimer][keyboard] 0.072002ms
+2014-07-12 20:56:29.785 Botaniser[45881:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:56:29.785 Botaniser[45881:70b] [CDVTimer][statusbar] 0.438988ms
+2014-07-12 20:56:29.786 Botaniser[45881:70b] [CDVTimer][TotalPluginStartup] 1.559973ms
+2014-07-12 20:56:29.878 Botaniser[45881:70b] Resetting plugins due to page load.
+2014-07-12 20:56:30.271 Botaniser[45881:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 20:57:11.221 Botaniser[46105:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 20:57:11.228 Botaniser[46105:70b] Unlimited access to network resources
+2014-07-12 20:57:11.245 Botaniser[46105:70b] [CDVTimer][keyboard] 0.070989ms
+2014-07-12 20:57:11.246 Botaniser[46105:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 20:57:11.246 Botaniser[46105:70b] [CDVTimer][statusbar] 0.403047ms
+2014-07-12 20:57:11.246 Botaniser[46105:70b] [CDVTimer][TotalPluginStartup] 1.447022ms
+2014-07-12 20:57:11.343 Botaniser[46105:70b] Resetting plugins due to page load.
+2014-07-12 20:57:11.745 Botaniser[46105:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:00:25.827 Botaniser[46333:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:00:25.838 Botaniser[46333:70b] Unlimited access to network resources
+2014-07-12 21:00:25.860 Botaniser[46333:70b] [CDVTimer][keyboard] 0.074029ms
+2014-07-12 21:00:25.860 Botaniser[46333:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:00:25.861 Botaniser[46333:70b] [CDVTimer][statusbar] 0.567019ms
+2014-07-12 21:00:25.861 Botaniser[46333:70b] [CDVTimer][TotalPluginStartup] 1.815021ms
+2014-07-12 21:00:26.009 Botaniser[46333:70b] Resetting plugins due to page load.
+2014-07-12 21:00:26.467 Botaniser[46333:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:14:31.392 Botaniser[46570:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:14:31.403 Botaniser[46570:70b] Unlimited access to network resources
+2014-07-12 21:14:31.427 Botaniser[46570:70b] [CDVTimer][keyboard] 0.123024ms
+2014-07-12 21:14:31.427 Botaniser[46570:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:14:31.428 Botaniser[46570:70b] [CDVTimer][statusbar] 0.503004ms
+2014-07-12 21:14:31.428 Botaniser[46570:70b] [CDVTimer][TotalPluginStartup] 1.855016ms
+2014-07-12 21:14:31.554 Botaniser[46570:70b] Resetting plugins due to page load.
+2014-07-12 21:14:31.993 Botaniser[46570:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:20:16.308 Botaniser[46800:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:20:16.315 Botaniser[46800:70b] Unlimited access to network resources
+2014-07-12 21:20:16.332 Botaniser[46800:70b] [CDVTimer][keyboard] 0.074029ms
+2014-07-12 21:20:16.333 Botaniser[46800:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:20:16.333 Botaniser[46800:70b] [CDVTimer][statusbar] 0.411987ms
+2014-07-12 21:20:16.333 Botaniser[46800:70b] [CDVTimer][TotalPluginStartup] 1.459956ms
+2014-07-12 21:20:16.420 Botaniser[46800:70b] Resetting plugins due to page load.
+2014-07-12 21:20:16.817 Botaniser[46800:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:22:19.368 Botaniser[47029:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:22:19.378 Botaniser[47029:70b] Unlimited access to network resources
+2014-07-12 21:22:19.402 Botaniser[47029:70b] [CDVTimer][keyboard] 0.106037ms
+2014-07-12 21:22:19.403 Botaniser[47029:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:22:19.403 Botaniser[47029:70b] [CDVTimer][statusbar] 0.590980ms
+2014-07-12 21:22:19.404 Botaniser[47029:70b] [CDVTimer][TotalPluginStartup] 1.938999ms
+2014-07-12 21:22:19.536 Botaniser[47029:70b] Resetting plugins due to page load.
+2014-07-12 21:22:19.978 Botaniser[47029:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:27:07.471 Botaniser[47260:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:27:07.481 Botaniser[47260:70b] Unlimited access to network resources
+2014-07-12 21:27:07.505 Botaniser[47260:70b] [CDVTimer][keyboard] 0.109017ms
+2014-07-12 21:27:07.506 Botaniser[47260:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:27:07.506 Botaniser[47260:70b] [CDVTimer][statusbar] 0.518024ms
+2014-07-12 21:27:07.507 Botaniser[47260:70b] [CDVTimer][TotalPluginStartup] 1.824021ms
+2014-07-12 21:27:07.609 Botaniser[47260:70b] Resetting plugins due to page load.
+2014-07-12 21:27:08.005 Botaniser[47260:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:28:44.224 Botaniser[47570:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:28:44.232 Botaniser[47570:70b] Unlimited access to network resources
+2014-07-12 21:28:44.254 Botaniser[47570:70b] [CDVTimer][keyboard] 0.072956ms
+2014-07-12 21:28:44.255 Botaniser[47570:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:28:44.255 Botaniser[47570:70b] [CDVTimer][statusbar] 0.485003ms
+2014-07-12 21:28:44.256 Botaniser[47570:70b] [CDVTimer][TotalPluginStartup] 1.609981ms
+2014-07-12 21:28:44.392 Botaniser[47570:70b] Resetting plugins due to page load.
+2014-07-12 21:28:44.817 Botaniser[47570:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:30:45.984 Botaniser[47880:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:30:45.996 Botaniser[47880:70b] Unlimited access to network resources
+2014-07-12 21:30:46.022 Botaniser[47880:70b] [CDVTimer][keyboard] 0.104010ms
+2014-07-12 21:30:46.023 Botaniser[47880:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:30:46.023 Botaniser[47880:70b] [CDVTimer][statusbar] 0.551999ms
+2014-07-12 21:30:46.024 Botaniser[47880:70b] [CDVTimer][TotalPluginStartup] 1.842976ms
+2014-07-12 21:30:46.170 Botaniser[47880:70b] Resetting plugins due to page load.
+2014-07-12 21:30:46.577 Botaniser[47880:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:43:58.258 Botaniser[48204:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:43:58.268 Botaniser[48204:70b] Unlimited access to network resources
+2014-07-12 21:43:58.289 Botaniser[48204:70b] [CDVTimer][keyboard] 0.074983ms
+2014-07-12 21:43:58.289 Botaniser[48204:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:43:58.290 Botaniser[48204:70b] [CDVTimer][statusbar] 0.413001ms
+2014-07-12 21:43:58.290 Botaniser[48204:70b] [CDVTimer][TotalPluginStartup] 1.498044ms
+2014-07-12 21:43:58.419 Botaniser[48204:70b] Resetting plugins due to page load.
+2014-07-12 21:43:58.842 Botaniser[48204:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:45:40.920 Botaniser[48424:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:45:40.933 Botaniser[48424:70b] Unlimited access to network resources
+2014-07-12 21:45:40.961 Botaniser[48424:70b] [CDVTimer][keyboard] 0.100017ms
+2014-07-12 21:45:40.962 Botaniser[48424:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:45:40.963 Botaniser[48424:70b] [CDVTimer][statusbar] 0.679016ms
+2014-07-12 21:45:40.963 Botaniser[48424:70b] [CDVTimer][TotalPluginStartup] 2.573013ms
+2014-07-12 21:45:41.097 Botaniser[48424:70b] Resetting plugins due to page load.
+2014-07-12 21:45:41.534 Botaniser[48424:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:49:08.542 Botaniser[48655:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:49:08.551 Botaniser[48655:70b] Unlimited access to network resources
+2014-07-12 21:49:08.573 Botaniser[48655:70b] [CDVTimer][keyboard] 0.109017ms
+2014-07-12 21:49:08.574 Botaniser[48655:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:49:08.574 Botaniser[48655:70b] [CDVTimer][statusbar] 0.492990ms
+2014-07-12 21:49:08.575 Botaniser[48655:70b] [CDVTimer][TotalPluginStartup] 1.637995ms
+2014-07-12 21:49:08.679 Botaniser[48655:70b] Resetting plugins due to page load.
+2014-07-12 21:49:09.082 Botaniser[48655:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:50:35.865 Botaniser[48881:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:50:35.876 Botaniser[48881:70b] Unlimited access to network resources
+2014-07-12 21:50:35.904 Botaniser[48881:70b] [CDVTimer][keyboard] 0.109017ms
+2014-07-12 21:50:35.905 Botaniser[48881:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:50:35.906 Botaniser[48881:70b] [CDVTimer][statusbar] 0.544012ms
+2014-07-12 21:50:35.906 Botaniser[48881:70b] [CDVTimer][TotalPluginStartup] 1.905024ms
+2014-07-12 21:50:36.028 Botaniser[48881:70b] Resetting plugins due to page load.
+2014-07-12 21:50:36.456 Botaniser[48881:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:54:59.946 Botaniser[49551:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:54:59.957 Botaniser[49551:70b] Unlimited access to network resources
+2014-07-12 21:54:59.983 Botaniser[49551:70b] [CDVTimer][keyboard] 0.095010ms
+2014-07-12 21:54:59.983 Botaniser[49551:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:54:59.984 Botaniser[49551:70b] [CDVTimer][statusbar] 0.589967ms
+2014-07-12 21:54:59.985 Botaniser[49551:70b] [CDVTimer][TotalPluginStartup] 2.171993ms
+2014-07-12 21:55:00.121 Botaniser[49551:70b] Resetting plugins due to page load.
+2014-07-12 21:55:00.529 Botaniser[49551:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 21:56:30.582 Botaniser[49857:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 21:56:30.592 Botaniser[49857:70b] Unlimited access to network resources
+2014-07-12 21:56:30.615 Botaniser[49857:70b] [CDVTimer][keyboard] 0.106990ms
+2014-07-12 21:56:30.616 Botaniser[49857:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 21:56:30.616 Botaniser[49857:70b] [CDVTimer][statusbar] 0.477970ms
+2014-07-12 21:56:30.617 Botaniser[49857:70b] [CDVTimer][TotalPluginStartup] 1.802981ms
+2014-07-12 21:56:30.735 Botaniser[49857:70b] Resetting plugins due to page load.
+2014-07-12 21:56:31.222 Botaniser[49857:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:02:47.676 Botaniser[50171:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:02:47.684 Botaniser[50171:70b] Unlimited access to network resources
+2014-07-12 22:02:47.704 Botaniser[50171:70b] [CDVTimer][keyboard] 0.108004ms
+2014-07-12 22:02:47.705 Botaniser[50171:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:02:47.706 Botaniser[50171:70b] [CDVTimer][statusbar] 0.734031ms
+2014-07-12 22:02:47.706 Botaniser[50171:70b] [CDVTimer][TotalPluginStartup] 2.215981ms
+2014-07-12 22:02:47.829 Botaniser[50171:70b] Resetting plugins due to page load.
+2014-07-12 22:02:48.267 Botaniser[50171:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:08:52.804 Botaniser[50407:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:08:52.815 Botaniser[50407:70b] Unlimited access to network resources
+2014-07-12 22:08:52.836 Botaniser[50407:70b] [CDVTimer][keyboard] 0.074029ms
+2014-07-12 22:08:52.837 Botaniser[50407:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:08:52.837 Botaniser[50407:70b] [CDVTimer][statusbar] 0.569999ms
+2014-07-12 22:08:52.838 Botaniser[50407:70b] [CDVTimer][TotalPluginStartup] 1.847982ms
+2014-07-12 22:08:52.951 Botaniser[50407:70b] Resetting plugins due to page load.
+2014-07-12 22:08:53.349 Botaniser[50407:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:10:14.369 Botaniser[50634:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:10:14.376 Botaniser[50634:70b] Unlimited access to network resources
+2014-07-12 22:10:14.393 Botaniser[50634:70b] [CDVTimer][keyboard] 0.074029ms
+2014-07-12 22:10:14.394 Botaniser[50634:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:10:14.394 Botaniser[50634:70b] [CDVTimer][statusbar] 0.374019ms
+2014-07-12 22:10:14.394 Botaniser[50634:70b] [CDVTimer][TotalPluginStartup] 1.425028ms
+2014-07-12 22:10:14.483 Botaniser[50634:70b] Resetting plugins due to page load.
+2014-07-12 22:10:14.867 Botaniser[50634:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:11:39.487 Botaniser[50910:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:11:39.494 Botaniser[50910:70b] Unlimited access to network resources
+2014-07-12 22:11:39.512 Botaniser[50910:70b] [CDVTimer][keyboard] 0.077009ms
+2014-07-12 22:11:39.513 Botaniser[50910:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:11:39.513 Botaniser[50910:70b] [CDVTimer][statusbar] 0.379026ms
+2014-07-12 22:11:39.514 Botaniser[50910:70b] [CDVTimer][TotalPluginStartup] 1.343012ms
+2014-07-12 22:11:39.602 Botaniser[50910:70b] Resetting plugins due to page load.
+2014-07-12 22:11:39.989 Botaniser[50910:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:13:58.535 Botaniser[51223:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:13:58.545 Botaniser[51223:70b] Unlimited access to network resources
+2014-07-12 22:13:58.566 Botaniser[51223:70b] [CDVTimer][keyboard] 0.075996ms
+2014-07-12 22:13:58.567 Botaniser[51223:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:13:58.567 Botaniser[51223:70b] [CDVTimer][statusbar] 0.431955ms
+2014-07-12 22:13:58.568 Botaniser[51223:70b] [CDVTimer][TotalPluginStartup] 1.474023ms
+2014-07-12 22:13:58.706 Botaniser[51223:70b] Resetting plugins due to page load.
+2014-07-12 22:13:59.099 Botaniser[51223:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:16:17.063 Botaniser[51534:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:16:17.071 Botaniser[51534:70b] Unlimited access to network resources
+2014-07-12 22:16:17.089 Botaniser[51534:70b] [CDVTimer][keyboard] 0.077009ms
+2014-07-12 22:16:17.089 Botaniser[51534:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:16:17.090 Botaniser[51534:70b] [CDVTimer][statusbar] 0.452995ms
+2014-07-12 22:16:17.090 Botaniser[51534:70b] [CDVTimer][TotalPluginStartup] 1.520991ms
+2014-07-12 22:16:17.186 Botaniser[51534:70b] Resetting plugins due to page load.
+2014-07-12 22:16:17.588 Botaniser[51534:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:17:07.001 Botaniser[51820:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:17:07.011 Botaniser[51820:70b] Unlimited access to network resources
+2014-07-12 22:17:07.032 Botaniser[51820:70b] [CDVTimer][keyboard] 0.111997ms
+2014-07-12 22:17:07.033 Botaniser[51820:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:17:07.033 Botaniser[51820:70b] [CDVTimer][statusbar] 0.679970ms
+2014-07-12 22:17:07.034 Botaniser[51820:70b] [CDVTimer][TotalPluginStartup] 2.022028ms
+2014-07-12 22:17:07.163 Botaniser[51820:70b] Resetting plugins due to page load.
+2014-07-12 22:17:07.610 Botaniser[51820:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:18:49.524 Botaniser[52084:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 22:18:49.534 Botaniser[52084:70b] Unlimited access to network resources
+2014-07-12 22:18:49.552 Botaniser[52084:70b] [CDVTimer][keyboard] 0.072002ms
+2014-07-12 22:18:49.552 Botaniser[52084:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 22:18:49.553 Botaniser[52084:70b] [CDVTimer][statusbar] 0.414968ms
+2014-07-12 22:18:49.553 Botaniser[52084:70b] [CDVTimer][TotalPluginStartup] 1.491010ms
+2014-07-12 22:18:49.698 Botaniser[52084:70b] Resetting plugins due to page load.
+2014-07-12 22:18:50.180 Botaniser[52084:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/app/home
+2014-07-12 22:19:53.906 Botaniser[52084:70b] Getting camera...
+2014-07-12 22:19:53.907 Botaniser[52084:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 22:20:24.065 Botaniser[52084:70b] Getting camera...
+2014-07-12 22:20:24.066 Botaniser[52084:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 22:20:24.385 Botaniser[52084:70b] Getting camera...
+2014-07-12 22:20:24.385 Botaniser[52084:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 22:20:24.680 Botaniser[52084:70b] Getting camera...
+2014-07-12 22:20:24.680 Botaniser[52084:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 22:20:24.869 Botaniser[52084:70b] Getting camera...
+2014-07-12 22:20:24.870 Botaniser[52084:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 22:20:25.048 Botaniser[52084:70b] Getting camera...
+2014-07-12 22:20:25.048 Botaniser[52084:70b] Camera.getPicture: source type 1 not available.
+2014-07-12 22:20:34.389 Botaniser[52084:70b] Getting camera...
+2014-07-12 22:20:34.390 Botaniser[52084:70b] Camera.getPicture: source type 1 not available.
