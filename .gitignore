@@ -1,4 +1,11 @@
 # ----------------------------------------------------------------------------------------
+# Ionic Framework .gitignore
+# ----------------------------------------------------------------------------------------
+node_modules
+
+
+
+# ----------------------------------------------------------------------------------------
 # JetBrains .gitignore
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 # Source: https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
