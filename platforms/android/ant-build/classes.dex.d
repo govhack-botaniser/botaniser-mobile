@@ -16,5 +16,8 @@
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/ionicframework/starter/R$string.class \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/ionicframework/starter/R$xml.class \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/ionicframework/starter/R.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/dexedLibs/classes-b74dbdbe9009ff9c0140335860ecc853.jar \

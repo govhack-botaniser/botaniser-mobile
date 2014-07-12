@@ -28,11 +28,15 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
     <name>Botaniser</name>
     <description>Botaniser</description>
     <author email="hi@botaniser.com" href="http://botaniser.com/">Botaniser GovHack 2014 Team</author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />

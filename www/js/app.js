@@ -35,7 +35,7 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
         views: {
             'menu-content': {
                 templateUrl: 'templates/home.html',
-                controller: 'DashCtrl'
+                controller: 'HomeCtrl'
             }
         }
     })
@@ -60,12 +60,12 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
         }
     })
 
-    .state('app.account', {
-        url: '/account',
+    .state('app.about', {
+        url: '/about',
         views: {
             'menu-content': {
-                templateUrl: 'templates/account.html',
-                controller: 'AccountCtrl'
+                templateUrl: 'templates/about.html',
+                controller: 'AboutCtrl'
             }
         }
     })

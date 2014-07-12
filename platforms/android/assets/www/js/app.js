@@ -23,54 +23,54 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     $stateProvider
 
     // setup an abstract state for the tabs directive
-    .state('tab', {
-        url: "/tab",
+    .state('app', {
+        url: "/app",
         abstract: true,
-        templateUrl: "templates/tabs.html"
+        templateUrl: "templates/menu.html"
     })
 
     // Each tab has its own nav history stack:
-    .state('tab.dash', {
-        url: '/dash',
+    .state('app.home', {
+        url: '/home',
         views: {
-            'tab-dash': {
-                templateUrl: 'templates/tab-dash.html',
-                controller: 'DashCtrl'
+            'menu-content': {
+                templateUrl: 'templates/home.html',
+                controller: 'HomeCtrl'
             }
         }
     })
 
     // Species near me and details page
-    .state('tab.species', {
+    .state('app.species', {
         url: '/speciesList',
         views: {
-            'tab-species': {
-                templateUrl: 'templates/tab-species.html',
+            'menu-content': {
+                templateUrl: 'templates/species.html',
                 controller: 'SpeciesCtrl'
             }
         }
     })
-    .state('tab.species-detail', {
+    .state('app.species-detail', {
         url: '/species/:speciesId',
         views: {
-            'tab-species': {
+            'menu-content': {
                 templateUrl: 'templates/species-detail.html',
                 controller: 'SpeciesDetailCtrl'
             }
         }
     })
 
-    .state('tab.account', {
-        url: '/account',
+    .state('app.about', {
+        url: '/about',
         views: {
-            'tab-account': {
-                templateUrl: 'templates/tab-account.html',
-                controller: 'AccountCtrl'
+            'menu-content': {
+                templateUrl: 'templates/about.html',
+                controller: 'AboutCtrl'
             }
         }
     })
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/tab/dash');
+    $urlRouterProvider.otherwise('/app/home');
 });
 
