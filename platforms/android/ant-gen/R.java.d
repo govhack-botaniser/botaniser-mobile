@@ -1,4 +1,4 @@
-/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-gen/com/ionicframework/starter/R.java \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-gen/com/botaniser/R.java \
  : /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/res/drawable/icon.png \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/res/drawable-hdpi/icon.png \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/res/drawable-land-hdpi/screen.png \

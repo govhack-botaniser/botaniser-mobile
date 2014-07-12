@@ -37,7 +37,6 @@
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/js \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/plugins \
-/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/README.md \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/css/style.css \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/img/ionic.png \
@@ -45,6 +44,7 @@
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/js/controllers.js \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/js/services.js \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/ionic \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/mapbox \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/ionic/css \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/ionic/fonts \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/ionic/js \
@@ -112,15 +112,17 @@
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-icons.scss \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-variables.scss \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/ionic/scss/ionicons/ionicons.scss \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/mapbox/mapbox.css \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/lib/mapbox/mapbox.js \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/plugins/com.ionic.keyboard \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/plugins/com.ionic.keyboard/www \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
-/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates/friend-detail.html \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates/species-detail.html \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates/tab-account.html \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates/tab-dash.html \
-/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates/tab-friends.html \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates/tab-species.html \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/assets/www/templates/tabs.html \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/AndroidManifest.xml \

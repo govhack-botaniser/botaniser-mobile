@@ -1,4 +1,11 @@
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes.dex : \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/botaniser/BuildConfig.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/botaniser/HelloCordova.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/botaniser/R$attr.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/botaniser/R$drawable.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/botaniser/R$string.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/botaniser/R$xml.class \
+/Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/botaniser/R.class \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$2.class \
 /Users/hhandoko/Documents/Workspace/Repository/botaniser-mobile/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard.class \

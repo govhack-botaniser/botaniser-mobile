@@ -318,3 +318,67 @@
 2014-07-12 16:37:08.208 HelloCordova[28767:70b] [CDVTimer][TotalPluginStartup] 1.942992ms
 2014-07-12 16:37:08.364 HelloCordova[28767:70b] Resetting plugins due to page load.
 2014-07-12 16:37:08.550 HelloCordova[28767:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AD733472-F7FD-4762-B5DF-F8A20537736E/HelloCordova.app/www/index.html#/tab/dash
+2014-07-12 16:41:25.675 HelloCordova[29576:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:41:25.686 HelloCordova[29576:70b] Unlimited access to network resources
+2014-07-12 16:41:25.711 HelloCordova[29576:70b] [CDVTimer][keyboard] 0.115037ms
+2014-07-12 16:41:25.712 HelloCordova[29576:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:41:25.712 HelloCordova[29576:70b] [CDVTimer][statusbar] 0.748992ms
+2014-07-12 16:41:25.713 HelloCordova[29576:70b] [CDVTimer][TotalPluginStartup] 2.238989ms
+2014-07-12 16:41:25.836 HelloCordova[29576:70b] Resetting plugins due to page load.
+2014-07-12 16:41:26.048 HelloCordova[29576:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AD733472-F7FD-4762-B5DF-F8A20537736E/HelloCordova.app/www/index.html#/tab/dash
+2014-07-12 16:47:44.935 HelloCordova[29896:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:47:44.943 HelloCordova[29896:70b] Unlimited access to network resources
+2014-07-12 16:47:44.961 HelloCordova[29896:70b] [CDVTimer][keyboard] 0.074029ms
+2014-07-12 16:47:44.961 HelloCordova[29896:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:47:44.961 HelloCordova[29896:70b] [CDVTimer][statusbar] 0.438035ms
+2014-07-12 16:47:44.962 HelloCordova[29896:70b] [CDVTimer][TotalPluginStartup] 1.389027ms
+2014-07-12 16:47:44.998 HelloCordova[29896:70b] Resetting plugins due to page load.
+2014-07-12 16:47:45.146 HelloCordova[29896:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AD733472-F7FD-4762-B5DF-F8A20537736E/HelloCordova.app/www/index.html#/tab/dash
+2014-07-12 16:47:58.194 HelloCordova[30091:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:47:58.205 HelloCordova[30091:70b] Unlimited access to network resources
+2014-07-12 16:47:58.225 HelloCordova[30091:70b] [CDVTimer][keyboard] 0.101984ms
+2014-07-12 16:47:58.226 HelloCordova[30091:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:47:58.227 HelloCordova[30091:70b] [CDVTimer][statusbar] 0.591993ms
+2014-07-12 16:47:58.227 HelloCordova[30091:70b] [CDVTimer][TotalPluginStartup] 1.830995ms
+2014-07-12 16:47:58.353 HelloCordova[30091:70b] Resetting plugins due to page load.
+2014-07-12 16:47:58.516 HelloCordova[30091:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AD733472-F7FD-4762-B5DF-F8A20537736E/HelloCordova.app/www/index.html#/tab/dash
+2014-07-12 16:48:37.776 HelloCordova[30360:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:48:37.788 HelloCordova[30360:70b] Unlimited access to network resources
+2014-07-12 16:48:37.807 HelloCordova[30360:70b] [CDVTimer][keyboard] 0.074029ms
+2014-07-12 16:48:37.807 HelloCordova[30360:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:48:37.808 HelloCordova[30360:70b] [CDVTimer][statusbar] 0.482976ms
+2014-07-12 16:48:37.808 HelloCordova[30360:70b] [CDVTimer][TotalPluginStartup] 1.510024ms
+2014-07-12 16:48:37.935 HelloCordova[30360:70b] Resetting plugins due to page load.
+2014-07-12 16:48:38.156 HelloCordova[30360:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AD733472-F7FD-4762-B5DF-F8A20537736E/HelloCordova.app/www/index.html#/tab/dash
+2014-07-12 16:49:58.652 HelloCordova[30592:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:49:58.664 HelloCordova[30592:70b] Unlimited access to network resources
+2014-07-12 16:49:58.686 HelloCordova[30592:70b] [CDVTimer][keyboard] 0.097036ms
+2014-07-12 16:49:58.686 HelloCordova[30592:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:49:58.687 HelloCordova[30592:70b] [CDVTimer][statusbar] 0.603020ms
+2014-07-12 16:49:58.687 HelloCordova[30592:70b] [CDVTimer][TotalPluginStartup] 2.017975ms
+2014-07-12 16:49:58.811 HelloCordova[30592:70b] Resetting plugins due to page load.
+2014-07-12 16:49:58.992 HelloCordova[30592:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AD733472-F7FD-4762-B5DF-F8A20537736E/HelloCordova.app/www/index.html#/tab/dash
+2014-07-12 16:51:04.710 HelloCordova[30874:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:51:04.720 HelloCordova[30874:70b] Unlimited access to network resources
+2014-07-12 16:51:04.743 HelloCordova[30874:70b] [CDVTimer][keyboard] 0.074983ms
+2014-07-12 16:51:04.744 HelloCordova[30874:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:51:04.744 HelloCordova[30874:70b] [CDVTimer][statusbar] 0.431001ms
+2014-07-12 16:51:04.745 HelloCordova[30874:70b] [CDVTimer][TotalPluginStartup] 1.466990ms
+2014-07-12 16:51:04.891 HelloCordova[30874:70b] Resetting plugins due to page load.
+2014-07-12 16:51:05.069 HelloCordova[30874:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AD733472-F7FD-4762-B5DF-F8A20537736E/HelloCordova.app/www/index.html#/tab/dash
+2014-07-12 16:55:57.901 Botaniser[31111:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:55:57.909 Botaniser[31111:70b] Unlimited access to network resources
+2014-07-12 16:55:57.928 Botaniser[31111:70b] [CDVTimer][keyboard] 0.069976ms
+2014-07-12 16:55:57.928 Botaniser[31111:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:55:57.929 Botaniser[31111:70b] [CDVTimer][statusbar] 0.397980ms
+2014-07-12 16:55:57.929 Botaniser[31111:70b] [CDVTimer][TotalPluginStartup] 1.339018ms
+2014-07-12 16:55:58.008 Botaniser[31111:70b] Resetting plugins due to page load.
+2014-07-12 16:55:58.163 Botaniser[31111:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/tab/dash
+2014-07-12 16:58:57.641 Botaniser[31479:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-12 16:58:57.653 Botaniser[31479:70b] Unlimited access to network resources
+2014-07-12 16:58:57.678 Botaniser[31479:70b] [CDVTimer][keyboard] 0.124991ms
+2014-07-12 16:58:57.679 Botaniser[31479:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-12 16:58:57.679 Botaniser[31479:70b] [CDVTimer][statusbar] 0.609994ms
+2014-07-12 16:58:57.680 Botaniser[31479:70b] [CDVTimer][TotalPluginStartup] 1.993001ms
+2014-07-12 16:58:57.853 Botaniser[31479:70b] Resetting plugins due to page load.
+2014-07-12 16:58:58.068 Botaniser[31479:70b] Finished load of: file:///Users/hhandoko/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8119FA5E-AF49-48B7-87A6-A3BC09838F2C/Botaniser.app/www/index.html#/tab/dash
