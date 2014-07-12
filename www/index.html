@@ -8,10 +8,6 @@
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- MapBox -->
-    <script src='lib/mapbox/mapbox.js'></script>
-    <link href='lib/mapbox/mapbox.css' rel='stylesheet' />
-
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
@@ -22,7 +18,16 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
-    <!-- your app's js -->
+    <!-- Twitter Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="ib/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- MapBox -->
+    <script src='lib/mapbox/mapbox.js'></script>
+    <link href='lib/mapbox/mapbox.css' rel='stylesheet' />
+
+    <!-- Botaniser -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>
@@ -32,10 +37,9 @@
       The nav bar that will be updated as we navigate between views.
     -->
     <ion-nav-bar class="bar-stable nav-title-slide-ios7">
-      <ion-nav-back-button class="button-icon icon  ion-ios7-arrow-back">
-        Back
-      </ion-nav-back-button>
+        <ion-nav-back-button class="button-icon icon  ion-ios7-arrow-back">Back</ion-nav-back-button>
     </ion-nav-bar>
+
     <!-- 
       The views will be rendered in the <ion-nav-view> directive below
       Templates are in the /templates folder (but you could also
