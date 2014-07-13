@@ -8,7 +8,17 @@
     <ion-content has-header="true">
         <div id="map"></div>
         <div class="species-detail">
-            <p>{{species.item.label}}</p>
+            <div class="card">
+                <div class="item item-divider">
+                    {{species.item.label}}
+                </div>
+                <div class="item item-text-wrap">
+                    <p><i class="fa fa-map-marker"></i> Spotted {{species.item.count}} times in the area.</p>
+                </div>
+                <div class="item item-text-wrap">
+                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut tempor neque. Phasellus nec lobortis purus. Integer in odio erat. Nam id aliquet dui. Nam auctor semper tincidunt. Aenean sagittis ullamcorper justo id mattis. Quisque gravida arcu quis risus pulvinar dignissim. In consectetur diam tellus, sed varius urna interdum id. Sed ac fermentum nisl, et elementum purus. Curabitur mattis lobortis dui, et malesuada mi malesuada eget.</small></p>
+                </div>
+            </div>
         </div>
     </ion-content>
 </ion-view>

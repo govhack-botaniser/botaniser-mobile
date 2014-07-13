@@ -26,14 +26,14 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     .state('app', {
         url: "/app",
         abstract: true,
-        templateUrl: "templates/menu.html"
+        templateUrl: "templates/tabs.html"
     })
 
     // Each tab has its own nav history stack:
     .state('app.home', {
         url: '/home',
         views: {
-            'menu-content': {
+            'app-home': {
                 templateUrl: 'templates/home.html',
                 controller: 'HomeCtrl'
             }
@@ -44,7 +44,7 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     .state('app.entry', {
         url: '/entry',
         views: {
-            'menu-content': {
+            'app-entry': {
                 templateUrl: 'templates/entry.html',
                 controller: 'EntryCtrl'
             }
@@ -55,7 +55,7 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     .state('app.species', {
         url: '/speciesList',
         views: {
-            'menu-content': {
+            'app-species': {
                 templateUrl: 'templates/species.html',
                 controller: 'SpeciesCtrl'
             }
@@ -64,7 +64,7 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     .state('app.species-detail', {
         url: '/species/:speciesId',
         views: {
-            'menu-content': {
+            'app-species': {
                 templateUrl: 'templates/species-detail.html',
                 controller: 'SpeciesDetailCtrl'
             }
@@ -74,7 +74,7 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     .state('app.leaderboard', {
         url: '/leaderboard',
         views: {
-            'menu-content': {
+            'app-leaderboard': {
                 templateUrl: 'templates/leaderboard.html',
                 controller: 'LeaderboardCtrl'
             }
@@ -84,7 +84,7 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
     .state('app.about', {
         url: '/about',
         views: {
-            'menu-content': {
+            'app-about': {
                 templateUrl: 'templates/about.html',
                 controller: 'AboutCtrl'
             }

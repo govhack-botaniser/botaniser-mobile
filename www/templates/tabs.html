@@ -3,20 +3,29 @@
   Each tab's child <ion-nav-view> directive will have its own 
   navigation history that also transitions its views in and out.
 -->
-<ion-tabs class="tabs-icon-top">
-    <!-- Pets Tab -->
-    <ion-tab title="Home" icon="icon ion-home" href="#/app/dash">
-        <ion-nav-view name="app-dash"></ion-nav-view>
+<ion-tabs class="tabs-icon-only">
+    <!-- Home Tab -->
+    <ion-tab title="Home" icon="icon ion-home" href="#/app/home">
+        <ion-nav-view name="app-home"></ion-nav-view>
     </ion-tab>
-
 
     <!-- Report / Near me Tab -->
     <ion-tab title="Near Me" icon="icon ion-location" href="#/app/speciesList">
         <ion-nav-view name="app-species"></ion-nav-view>
     </ion-tab>
 
+    <!-- Camera / entry Tab -->
+    <ion-tab title="Report" icon="icon ion-camera" href="#/app/entry">
+        <ion-nav-view name="app-entry"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Leaderboard Tab -->
+    <ion-tab title="Leaderboard" icon="icon ion-ribbon-a" href="#/app/leaderboard">
+        <ion-nav-view name="app-leaderboard"></ion-nav-view>
+    </ion-tab>
+
     <!-- About Tab -->
-    <ion-tab title="Account" icon="icon ion-gear-b" href="#/app/account">
-        <ion-nav-view name="app-account"></ion-nav-view>
+    <ion-tab title="About" icon="icon ion-information-circled" href="#/app/about">
+        <ion-nav-view name="app-about"></ion-nav-view>
     </ion-tab>
 </ion-tabs>
