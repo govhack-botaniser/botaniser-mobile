@@ -5,6 +5,7 @@ angular.module('botaniser.controllers', [])
 
 .controller('EntryCtrl', ['$scope', '$location', 'GetUU', function($scope, $location, GetUU) {
     // init variables
+    $scope.form = {};
     $scope.data = {};
     $scope.obj;
     var pictureSource;   // picture source
@@ -89,6 +90,13 @@ angular.module('botaniser.controllers', [])
             navigator.notification.alert(":(");
         }
     };
+
+    $scope.getPos = function (){
+        Geolocation.getCurrentPosition(function (pos) {
+            $scope.form.lat = pos.coords.latitude;
+            $scope.form.lon = pos.coords.longitude;
+        });
+    };
 }])
 
 .controller('SpeciesCtrl', function($scope, Api, GeoLocation, SpeciesList) {
@@ -147,6 +155,13 @@ angular.module('botaniser.controllers', [])
 })
 
 .controller('SpeciesDetailCtrl', function($scope, $stateParams, Api, GeoLocation, SpeciesList) {
+
+    var map = L.mapbox.map('map', 'chid.map-coyyfgk8', {
+        attributionControl: false,
+        zoomControl: false
+        //}).setView([37.78, -122.40], 9);
+    });
+
     // Initialise geo-location
     $scope.pos = {};
     $scope.radius = 10;
@@ -196,6 +211,39 @@ angular.module('botaniser.controllers', [])
 
                 Api.fetchOne(speciesData).success(function(data, status, headers,config) {
                     $scope.species = { occurence: $scope.species1.item.count, item: data[0]};
+
+//                    Api.fetch({
+//                        params: {
+//                            'fq': 'species_guid:' + $scope.species.item.guid,
+//                            'pageSize': 100,
+//                            'flimit'  : 0,
+//                            //'sort'  : 'count',
+//                            'radius': $scope.radius,
+//                            'lat'   : $scope.pos.coords.latitude,
+//                            'lon'   : $scope.pos.coords.longitude,
+//                            'facets': 'taxon_name'
+//                        }
+//                    }).success(function(data, status, headers, config) {
+//                        console.log(data.occurrences);
+//                        $scope.occurrences = data.occurrences.reduce(function (obj, marker, index) { //we stupidly need a hash map Object here
+//                            //L.marker([marker.decimalLatitude, marker.decimalLongitude]).addTo($scope.map);
+//                            obj['m' + index] = {
+//                                lat: marker.decimalLatitude,
+//                                lng: marker.decimalLongitude,
+//                                message: marker.collectionName,
+//                                draggable: false
+//                            };
+//                            return obj;
+//                        }, {});
+//
+//                        for(var i = 0; i < $scope.occurences.length; i++){
+//                            L.marker([$scope.occurences[i].lat, $scope.occurences[i].lng]).addTo(map);
+//                        }
+//
+//                        console.log($scope.occurrences);
+//                    }).error(function(data, status, headers, config) {
+//                        console.log('Error', arguments);
+//                    });
                 }).error(function(data, status, headers, config) {
                     console.log('Error', arguments);
                 });
@@ -212,12 +260,6 @@ angular.module('botaniser.controllers', [])
 //        $scope.pos = pos;
 //    });
 //    $scope.species = SpeciesList.get($stateParams.speciesId, $scope.pos);
-
-    L.mapbox.map('map', 'chid.map-coyyfgk8', {
-        attributionControl: false,
-        zoomControl: false
-        //}).setView([37.78, -122.40], 9);
-    });
 })
 
 .controller('LeaderboardCtrl', function($scope) {
