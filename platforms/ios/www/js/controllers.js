@@ -1,70 +1,153 @@
 angular.module('botaniser.controllers', [])
 
-.controller('HomeCtrl', function($scope, GeoLocation, Camera) {
-    // Initialise geo-location
-    $scope.pos = {};
-    GeoLocation.getCurrentPosition(function(pos) {
-        $scope.pos = pos;
+.controller('HomeCtrl', ['$scope', '$location', 'GetUU', function($scope, $location, GetUU) {
+    // init variables
+    $scope.data = {};
+    $scope.obj;
+    var pictureSource;   // picture source
+    var destinationType; // sets the format of returned value
+    var url;
+
+    // on DeviceReady check if already logged in (in our case CODE saved)
+    ionic.Platform.ready(function() {
+        //console.log("ready get camera types");
+        if (!navigator.camera)
+        {
+            // error handling
+            return;
+        }
+        //pictureSource=navigator.camera.PictureSourceType.PHOTOLIBRARY;
+        pictureSource=navigator.camera.PictureSourceType.CAMERA;
+        destinationType=navigator.camera.DestinationType.FILE_URI;
     });
 
-    // Initialise camera functions
-//    $scope.getPhoto = function() {
-//        console.log('Getting camera...');
-//        Camera.getPicture().then(function(imageURI) {
-//            console.log(imageURI);
-//            //$scope.lastPhoto = imageURI;
-//        }, function(err) {
-//            console.err(err);
-//        }, {
-//            quality: 75,
-//            targetWidth: 320,
-//            targetHeight: 320,
-//            saveToPhotoAlbum: false
-//        });
-//    };
-    $scope.getPhoto = function() {
-        var options = {
+    // get upload URL for FORM
+    GetUU.query(function(response) {
+        $scope.data = response;
+        //console.log("got upload url ", $scope.data.uploadurl);
+    });
+
+    // take picture
+    $scope.takePicture = function() {
+        //console.log("got camera button click");
+        var options =   {
             quality: 50,
-            destinationType: Camera.DestinationType.FILE_URI,
-            sourceType: 1,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
-            encodingType: 0     // 0=JPG 1=PNG
+            destinationType: destinationType,
+            sourceType: pictureSource,
+            encodingType: 0
+        };
+        if (!navigator.camera)
+        {
+            // error handling
+            return;
         }
-        navigator.camera.getPicture(onSuccess, onFail, options);
-    }
-
-    $scope.uploadPhoto = function() {
-        var options = {
-            quality: 50,
-            destinationType: Camera.DestinationType.FILE_URI,
-            sourceType: 2,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
-            encodingType: 0     // 0=JPG 1=PNG
-        }
-        navigator.camera.getPicture(onSuccess, onFail, options);
-    }
-
-    $scope.sendPhoto = function() {
-        var myImg = $scope.picData;
-        var options = new FileUploadOptions();
-        options.fileKey="post";
-        options.chunkedMode = false;
-        var params = {};
-        params.user_token = localStorage.getItem('auth_token');
-        params.user_email = localStorage.getItem('email');
-        options.params = params;
-        var ft = new FileTransfer();
-        ft.upload(myImg, encodeURI("https://example.com/posts/"), onUploadSuccess, onUploadFail, options);
-    }
-
-    var onSuccess = function(FILE_URI) {
-        console.log(FILE_URI);
-        $scope.picData = FILE_URI;
-        $scope.$apply();
+        navigator.camera.getPicture(
+            function (imageURI) {
+                //console.log("got camera success ", imageURI);
+                $scope.mypicture = imageURI;
+            },
+            function (err) {
+                //console.log("got camera error ", err);
+                // error handling camera plugin
+            },
+            options);
     };
 
-    var onFail = function(e) {
-        console.log("On fail " + e);
-    }
-})
+    // do POST on upload url form by http / html form
+    $scope.update = function(obj) {
+        if (!$scope.data.uploadurl)
+        {
+            // error handling no upload url
+            return;
+        }
+        if (!$scope.mypicture)
+        {
+            // error handling no picture given
+            return;
+        }
+        var options = new FileUploadOptions();
+        options.fileKey="ffile";
+        options.fileName=$scope.mypicture.substr($scope.mypicture.lastIndexOf('/')+1);
+        options.mimeType="image/jpeg";
+        var params = {};
+        params.other = obj.text; // some other POST fields
+        options.params = params;
+
+        //console.log("new imp: prepare upload now");
+        var ft = new FileTransfer();
+        ft.upload($scope.mypicture, encodeURI($scope.data.uploadurl), uploadSuccess, uploadError, options);
+        function uploadSuccess(r) {
+            // handle success like a message to the user
+        }
+        function uploadError(error) {
+            //console.log("upload error source " + error.source);
+            //console.log("upload error target " + error.target);
+        }
+    };
+//    // Initialise geo-location
+//    $scope.pos = {};
+//    GeoLocation.getCurrentPosition(function(pos) {
+//        $scope.pos = pos;
+//    });
+//
+//    // Initialise camera functions
+////    $scope.getPhoto = function() {
+////        console.log('Getting camera...');
+////        Camera.getPicture().then(function(imageURI) {
+////            console.log(imageURI);
+////            //$scope.lastPhoto = imageURI;
+////        }, function(err) {
+////            console.err(err);
+////        }, {
+////            quality: 75,
+////            targetWidth: 320,
+////            targetHeight: 320,
+////            saveToPhotoAlbum: false
+////        });
+////    };
+//    $scope.getPhoto = function() {
+//        var options = {
+//            quality: 50,
+//            destinationType: Camera.DestinationType.FILE_URI,
+//            sourceType: 1,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
+//            encodingType: 0     // 0=JPG 1=PNG
+//        }
+//        navigator.camera.getPicture(onSuccess, onFail, options);
+//    }
+//
+//    $scope.uploadPhoto = function() {
+//        var options = {
+//            quality: 50,
+//            destinationType: Camera.DestinationType.FILE_URI,
+//            sourceType: 2,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
+//            encodingType: 0     // 0=JPG 1=PNG
+//        }
+//        navigator.camera.getPicture(onSuccess, onFail, options);
+//    }
+//
+//    $scope.sendPhoto = function() {
+//        var myImg = $scope.picData;
+//        var options = new FileUploadOptions();
+//        options.fileKey="post";
+//        options.chunkedMode = false;
+//        var params = {};
+//        params.user_token = localStorage.getItem('auth_token');
+//        params.user_email = localStorage.getItem('email');
+//        options.params = params;
+//        var ft = new FileTransfer();
+//        ft.upload(myImg, encodeURI("https://example.com/posts/"), onUploadSuccess, onUploadFail, options);
+//    }
+//
+//    var onSuccess = function(FILE_URI) {
+//        console.log(FILE_URI);
+//        $scope.picData = FILE_URI;
+//        $scope.$apply();
+//    };
+//
+//    var onFail = function(e) {
+//        console.log("On fail " + e);
+//    }
+}])
 
 .controller('EntryCtrl', function($scope) {
 })
@@ -193,6 +276,9 @@ angular.module('botaniser.controllers', [])
         zoomControl: false
         //}).setView([37.78, -122.40], 9);
     });
+})
+
+.controller('LeaderboardCtrl', function($scope) {
 })
 
 .controller('AboutCtrl', function($scope) {

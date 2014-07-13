@@ -71,6 +71,16 @@ angular.module('botaniser', ['ionic', 'botaniser.controllers', 'botaniser.servic
         }
     })
 
+    .state('app.leaderboard', {
+        url: '/leaderboard',
+        views: {
+            'menu-content': {
+                templateUrl: 'templates/leaderboard.html',
+                controller: 'LeaderboardCtrl'
+            }
+        }
+    })
+
     .state('app.about', {
         url: '/about',
         views: {

@@ -1,13 +1,18 @@
 angular.module('botaniser.services', [])
 
+.factory('Api', function ($rootScope, $http) {
+    return {
+        fetch: function(config) {
+            return $http.get('http://biocache.ala.org.au/ws/occurrences/search', config);
+        }
+    };
+})
+
 .factory('SpeciesList', function() {
     // Might use a resource here that returns a JSON array
 
     // Some fake testing data
-    var speciesList = [
-        { id: 0, name: 'Acacia', description: 'Some Acacia', image_url: 'Test.jpg', occurrenceCount: 10, score: 5 },
-        { id: 1, name: 'Banksia', description: 'Some Banksia', image_url: 'Test.jpg', occurenceCount: 20, score: 3 }
-    ];
+    var speciesList = [];
 
     return {
         all: function() {
@@ -16,6 +21,16 @@ angular.module('botaniser.services', [])
         get: function(speciesId) {
             // Simple index lookup
             return speciesList[speciesId];
+        }
+    }
+})
+
+// get upload url for file transfer (upload to http post service)
+.factory('GetUU', function() {
+    var uploadurl = "http://localhost/upl";
+    return  {
+        query: function() {
+            return uploadurl;
         }
     }
 })
