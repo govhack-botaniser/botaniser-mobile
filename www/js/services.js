@@ -3,7 +3,10 @@ angular.module('botaniser.services', [])
 .factory('Api', function ($rootScope, $http) {
     return {
         fetch: function(config) {
-            return $http.get('http://biocache.ala.org.au/ws/occurrences/search', config);
+            return $http.get('http://bie.ala.org.au/ws/occurrences/search', config);
+        },
+        fetchOne: function(data) {
+            return $http.post('http://bie.ala.org.au/ws/species/lookup/bulk',data);
         }
     };
 })
@@ -27,7 +30,7 @@ angular.module('botaniser.services', [])
 
 // get upload url for file transfer (upload to http post service)
 .factory('GetUU', function() {
-    var uploadurl = "http://localhost/upl";
+    var uploadurl = "http://botaniser.herokuapp.com/reports/add";
     return  {
         query: function() {
             return uploadurl;

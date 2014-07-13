@@ -10,14 +10,6 @@
                         <button class="button button-block button-positive icon-right ion-chevron-right" ng-disabled="!imp.text" ng-click="update(obj)">Upload</button>
                     </div>
                 </div>
-                <label for="SpeciesLatitude" class="item item-input item-stacked-label">
-                    <span class="input-label">Latitude</span>
-                    <input ng-model='form.lat' class="form-control" id="SpeciesLatitude" placeholder="Latitude" />
-                </label>
-                <label for="SpeciesLongitude" class="item item-input item-stacked-label">
-                    <span class="input-label">Longitude</span>
-                    <input ng-model='form.lon' class="form-control" id="SpeciesLongitude" placeholder="Longitude" />
-                </label>
                 <label for="SpeciesName" class="item item-input item-stacked-label">
                     <span class="input-label">Name</span>
                     <input ng-model='form.name' class="form-control" id="SpeciesName" placeholder="Enter species name"/>
@@ -26,10 +18,19 @@
                     <span class="input-label">Description</span>
                     <textarea ng-model='form.description' class="form-control" rows="3" id="Description" placeholder="Size, local habitat, and interactions with bees or other animals etc. Max. 400 words"></textarea>
                 </label>
-            </div>
-            <div class="form-group">
-                <h5> Location of specimen</h5>
-                <button ng-click='getPos()' type="button" class="btn btn-link"><i class="fa fa-map-marker fa-lg"></i> Use my current location</button>
+                <div for="fileSelect" class="item item-input item-stacked-label">
+                    <div class="padding">
+                        <button class="button button-block button-positive icon-left ion-pinpoint" ng-click="getPos()">Use my current location</button>
+                    </div>
+                </div>
+                <label for="SpeciesLatitude" class="item item-input item-stacked-label">
+                    <span class="input-label">Latitude</span>
+                    <input ng-model='form.lat' class="form-control" id="SpeciesLatitude" placeholder="Latitude" />
+                </label>
+                <label for="SpeciesLongitude" class="item item-input item-stacked-label">
+                    <span class="input-label">Longitude</span>
+                    <input ng-model='form.lon' class="form-control" id="SpeciesLongitude" placeholder="Longitude" />
+                </label>
             </div>
             <button type="submit" class="button button-block button-balanced">Submit</button>
         </form>

@@ -1,6 +1,9 @@
 angular.module('botaniser.controllers', [])
 
-.controller('HomeCtrl', ['$scope', '$location', 'GetUU', function($scope, $location, GetUU) {
+.controller('HomeCtrl', function($scope) {
+})
+
+.controller('EntryCtrl', ['$scope', '$location', 'GetUU', function($scope, $location, GetUU) {
     // init variables
     $scope.data = {};
     $scope.obj;
@@ -78,79 +81,15 @@ angular.module('botaniser.controllers', [])
         ft.upload($scope.mypicture, encodeURI($scope.data.uploadurl), uploadSuccess, uploadError, options);
         function uploadSuccess(r) {
             // handle success like a message to the user
+            navigator.notification.alert("Success");
         }
         function uploadError(error) {
             //console.log("upload error source " + error.source);
             //console.log("upload error target " + error.target);
+            navigator.notification.alert(":(");
         }
     };
-//    // Initialise geo-location
-//    $scope.pos = {};
-//    GeoLocation.getCurrentPosition(function(pos) {
-//        $scope.pos = pos;
-//    });
-//
-//    // Initialise camera functions
-////    $scope.getPhoto = function() {
-////        console.log('Getting camera...');
-////        Camera.getPicture().then(function(imageURI) {
-////            console.log(imageURI);
-////            //$scope.lastPhoto = imageURI;
-////        }, function(err) {
-////            console.err(err);
-////        }, {
-////            quality: 75,
-////            targetWidth: 320,
-////            targetHeight: 320,
-////            saveToPhotoAlbum: false
-////        });
-////    };
-//    $scope.getPhoto = function() {
-//        var options = {
-//            quality: 50,
-//            destinationType: Camera.DestinationType.FILE_URI,
-//            sourceType: 1,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
-//            encodingType: 0     // 0=JPG 1=PNG
-//        }
-//        navigator.camera.getPicture(onSuccess, onFail, options);
-//    }
-//
-//    $scope.uploadPhoto = function() {
-//        var options = {
-//            quality: 50,
-//            destinationType: Camera.DestinationType.FILE_URI,
-//            sourceType: 2,      // 0:Photo Library, 1=Camera, 2=Saved Photo Album
-//            encodingType: 0     // 0=JPG 1=PNG
-//        }
-//        navigator.camera.getPicture(onSuccess, onFail, options);
-//    }
-//
-//    $scope.sendPhoto = function() {
-//        var myImg = $scope.picData;
-//        var options = new FileUploadOptions();
-//        options.fileKey="post";
-//        options.chunkedMode = false;
-//        var params = {};
-//        params.user_token = localStorage.getItem('auth_token');
-//        params.user_email = localStorage.getItem('email');
-//        options.params = params;
-//        var ft = new FileTransfer();
-//        ft.upload(myImg, encodeURI("https://example.com/posts/"), onUploadSuccess, onUploadFail, options);
-//    }
-//
-//    var onSuccess = function(FILE_URI) {
-//        console.log(FILE_URI);
-//        $scope.picData = FILE_URI;
-//        $scope.$apply();
-//    };
-//
-//    var onFail = function(e) {
-//        console.log("On fail " + e);
-//    }
 }])
-
-.controller('EntryCtrl', function($scope) {
-})
 
 .controller('SpeciesCtrl', function($scope, Api, GeoLocation, SpeciesList) {
     // Initialise geo-location
@@ -211,6 +150,7 @@ angular.module('botaniser.controllers', [])
     // Initialise geo-location
     $scope.pos = {};
     $scope.radius = 10;
+    $scope.species1 = [];
     $scope.species = [];
     GeoLocation.getCurrentPosition(function(pos) {
         $scope.pos = pos;
@@ -232,12 +172,6 @@ angular.module('botaniser.controllers', [])
                 }
             }).success(function(data, status, headers, config) {
                 var results = data.facetResults[0].fieldResult;
-//                var speciesListFull = results.reduce(function (res, item){
-//                    if (speciesMap[item.label] == $stateParams.speciesName) {
-//                        res.push(item);
-//                    }
-//                    return res;
-//                }, []);
                 var idx = 0;
                 var speciesListFull = results.reduce(function (res, item){
                     if (item.count < 100 && speciesMap[item.label] && speciesMap[item.label].occurrenceCount < 100) {
@@ -256,7 +190,15 @@ angular.module('botaniser.controllers', [])
                     return 0;
                 });
 
-                $scope.species = speciesListFull[$stateParams.speciesId];
+                $scope.species1 = speciesListFull[$stateParams.speciesId];
+
+                var speciesData = { names: [$scope.species1.item.label]};
+
+                Api.fetchOne(speciesData).success(function(data, status, headers,config) {
+                    $scope.species = { occurence: $scope.species1.item.count, item: data[0]};
+                }).error(function(data, status, headers, config) {
+                    console.log('Error', arguments);
+                });
             }).error(function(data, status, headers, config) {
                 console.log('Error', arguments);
             });
